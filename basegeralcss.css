@@ -1,0 +1,30 @@
+/*Tipos de seleção*/
+
+img {
+
+}
+
+/*id - para somente um elemento*/
+#titulo {
+    color: green;
+    font-size: 25px;
+}
+
+/*class - para vários elementos*/
+.texto {
+   color: red; 
+   font-size: 25px;
+}
+
+/*selecionar mais de um elemento (virgula)*/
+#titulo, .texto {
+    color: blue;
+    font-size: 25px;
+}
+
+/*selecionar um item dentro de outro item(sem virgula)*/
+ol li {
+    color: pink;
+} 
+/*exemplo - li dentro de ol*/
+

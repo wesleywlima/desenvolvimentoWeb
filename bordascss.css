@@ -1,0 +1,23 @@
+p {
+    background-color: blue;
+    /*border: 5px solid blue;/*largura;tipo=solid,dotted, dashed, double, groove, no border;cor
+    border-bottom: ;
+    border-top: ;
+    border-left: ;
+    border-right: ;*/
+    border-radius: 5px;/*arredondar*/
+}
+
+
+div {
+    background-color: rgb(107, 231, 107);
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;/*redondo - metade do tamanho do elemento*/
+    border: 3px solid darkgreen;
+}
+
+img {
+    border: 5px solid red;
+    border-radius: 5px;
+}
