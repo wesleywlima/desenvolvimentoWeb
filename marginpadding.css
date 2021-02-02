@@ -1,4 +1,16 @@
+body {
+    margin: 0;/*zera a margem padrao do body*/
+}
+
 .exemplo {
     border:2px solid green;
     padding: 10px;/*espaçamento interno*/
+    margin: 10px;/*espaçamento externo*/
+    padding: 10px 50px 10px 50px;/*cima, dir, baixo, esq*/
+    padding: 10px 50px;/*cima,baixo/esq,dir*/
+    padding-left: ;
+    padding-right: ;
+    padding-top: ;
+    padding-bottom: ;
+
 }

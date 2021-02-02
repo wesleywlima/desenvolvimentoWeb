@@ -1,0 +1,19 @@
+body {
+    margin: 0;/*zera a margem padrao do body*/
+}
+
+.exemplo {
+   background-color: black;
+   /*width: 100%;tem ref pelo espaço disponivel para imagem
+   height: 100px;*/
+   /*width: auto; expande o quanto possível*/
+   width: 500px;
+   height: 500px;
+}
+
+img {
+    /*width: auto; expande para o tamanho maximo da imagem*/
+    width: inherit;/*usa a mesma largura do item anterior-nesse caso 500px*/
+    max-width: 450px;/*maximo da medida da imagem*/
+    min-width: ;/*tamanho minimo da imagem*/
+}

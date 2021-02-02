@@ -1,0 +1,18 @@
+body {
+    margin: 0;/*zera a margem padrao do body*/
+}
+
+.link {
+    color: green;
+    font-size: 30px;
+}
+
+.link:hover {
+    /*mouse em cima do elemento*/
+    color: red;
+}
+
+.link:visited {
+    /*link ja acessado*/
+    color: pink;
+}
