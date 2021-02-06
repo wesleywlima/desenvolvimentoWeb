@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formatação de texto no Css</title>
+    <link rel="stylesheet" href="formularios.css">
+</head>
+<body>
+
+    <h1>Páginas de testes</h1>
+
+    <h2>Área de Cadastro</h2>    
+    <form action="../módulo1-formatacoes/paginas/paginalogin.html" method="GET"> 
+        
+       <select name="ordenacao" id="">
+            <option></option><!--colocada para aparecer em branco-->
+            <option value="bestseller">Mais vendidos</option>
+            <option value="last" selected>Recentes</option> 
+            <!--value diz qual info sera enviada, nao mostra ao usuario-->
+            <!--selected = opcao que aparece selecionada-->
+       </select>
+<br> <br>
+
+       <input type="submit" value="Fazer Cadastro">
+
+<br> <br> <br> <br>
+
+       <select name="order" size="2" multiple>
+           <!--size: quantos itens aparececao
+            multiple: mais de uma opcao pode ser selecionada-->
+           <option value="bestseller">Mais Vendidos</option>
+           <option value="middle">Meio</option>
+           <option value="last">Recentes</option>
+       </select>
+
+<br> <br>
+
+       <input type="submit" value="Fazer Cadastro">
+
+    </form>
+   
+    
+</body>
+</html>
