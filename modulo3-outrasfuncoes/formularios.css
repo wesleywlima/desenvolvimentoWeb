@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px;
+    font-size: 17px;
+}
+
+label {
+    /*display: inline; padrao*/
+    display: block;/*poe um item abaixo do outro*/
+    margin-top: 20px; /*separa os campos da label*/
+}
+
+/*selecionando input com type especifico*/
+input[type=text], textarea, select {
+    padding: 10px;
+    width: 500px;
+    font-size: 15px;
+    border: 1px solid #CCC;
+    outline: 0; /*remove a borda de destaque quando o item esta selecionado */
+    margin-top: 5px;
+}
+
+textarea {
+    height: 200px;
+    resize: none; /*usuario nao consegue alterar o tamanho da caixa*/
+}
+
+.termoslink {
+    color:#000;
+    text-decoration: none;
+}
+
+.termoslink:hover {
+    text-decoration: underline;
+}
+
+button {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #CCC;
+    background-color: #EEE;
+}
+
+button:hover {
+    background-color: #CCC;
+}

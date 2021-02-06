@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formatação de texto no Css</title>
+    <link rel="stylesheet" href="formularios.css">
+</head>
+<body>
+
+    <h1>Páginas de testes</h1>
+
+    <h2>Área de Cadastro</h2>    
+    <form action="../módulo1-formatacoes/paginas/paginalogin.html" method="GET"> 
+        
+        <label for="nome">Nome Completo:</label><br>
+        <!--for=name do input-com isso clicando no texto voce entra na caixa de texto-->
+        <input type="text" name="nome" id="nome">
+
+        <button>Fazer cadastro</button>
+
+        <br><br>
+
+        <input type="checkbox" id="teste">
+        <label for="teste">Eu declaro que li e aceito os termos de uso.</label>
+        <!--com isso pode-se clicar no proprio texto para selecionar-nao só no checkbox-->
+
+        <br><br>
+        
+        <h2>Input dentro do label - Outra forma de uso</h2>
+        
+        <label> <!--tira a necessidade do FOR-->
+            Nome completo: <br>
+            <input type="text" name="nome">
+        </label>
+
+        <br><br>
+
+        <label>
+            <input type="checkbox">
+            Eu declaro que li e aceito os termos de uso.
+        </label>
+
+    </form>
+   
+    
+</body>
+</html>
