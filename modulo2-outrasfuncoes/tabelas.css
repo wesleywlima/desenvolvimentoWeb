@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px;
+    font-size: 17px;
+}
+
+table {
+    width: 600px;
+}
+
+table thead {
+    background-color: #CCC;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+tbody tr:hover { /*quando passar moue - destaca linhas dentro do tbody*/
+    background-color: #EEE;
+}
+
+tbody tr:nth-child(even) {/*formata as linha pares*/
+    background-color: #EEE;
+}
